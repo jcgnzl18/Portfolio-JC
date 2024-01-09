@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 140px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-right: 15px;
+    transition: color 0.3s ease;
+
+    
+    background: linear-gradient(to right, #dbdb34, #fff017); 
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+nav a:hover {
+    color: #ecf0f1; 
+}
+
+
+nav li {
+    margin-right: 50px; 
+}
+
+
+.social-icons img {
+    width: 30px; 
+    height: auto; 
+    margin-right: 50px;
+}
+/* ... (otros estilos) ... */
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+.nueva-seccion {
+    padding: 20px;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    height: 77%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenido-inicio {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 8em; /* Tamaño de fuente más grande */
+    margin-bottom: px; /* Mayor espacio inferior */
+    position: absolute;
+    align-items: center;
+    margin: -5%;
+    margin-left: -23%;
+    margin-top: 5%;
+}
+
+.border{
+    color: black;
+    text-shadow: 
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        1px 1px 0 white,
+        -1px 1px 0 white
+}
+
+.wave{
+    color: #dbdb34;
+    animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave{
+    0%, 100% {
+        clip-path: polygon(
+            0% 47%,
+            10% 48%,
+            33% 54%,
+            54% 60%,
+            70% 61%,
+            84% 59%,
+            100% 52%,
+            100% 100%,
+            0% 100%
+
+        );
+    }
+
+    50% {
+        clip-path: polygon(
+            0% 60%,
+            15% 65%,
+            34% 66%,
+            51% 62%,
+            67% 50%,
+            84% 45%,
+            100% 46%,
+            100% 100%,
+            0% 100%
+        );
+    }
+} 
+
+.container {
+    position: relative;
+    text-align: center;
+    margin-top: 35%;
+}
+
+.container .scroll {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.scroll > span {
+    
+    animation: glow 2s ease-in-out infinite;
+}
+@keyframes glow{
+    0%, 100%{
+        color: white;
+        text-shadow: 0 0 12px yellow, 0 0 50px yellow, 0 0 yellow;
+    }
+    10%, 90% {
+        color: yellow;
+        text-shadow: none;
+    }
+}
+
+.scroll > span:nth-child(2){
+    animation-delay: 0.25s;
+}
+.scroll > span:nth-child(3){
+    animation-delay: 0.5s;
+}
+.scroll > span:nth-child(4){
+    animation-delay: 0.75s;
+}
+.scroll > span:nth-child(5){
+    animation-delay: 1s;
+}
+.scroll > span:nth-child(6){
+    animation-delay: 1.25s;
+}
+.scroll > span:nth-child(7){
+    animation-delay: 1.50s;
+}
+
+
+
+/* ... (otros estilos) ... */
+
+
+
+
+
