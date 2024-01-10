@@ -51,7 +51,7 @@ nav li {
 .social-icons img {
     width: 30px; 
     height: auto; 
-    margin-right: 50px;
+    margin-right: 120px;
 }
 /* ... (otros estilos) ... */
 
@@ -182,11 +182,397 @@ h1 {
     animation-delay: 1.50s;
 }
 
+.sobremi{
+    border: 1px solid yellow; /* Ajusta el grosor y color del borde según tus preferencias */
+    padding: 80px; /* Ajusta el espaciado interno según tus preferencias */
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#sobremi {
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+}
+
+#sobremi h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    font-size: 2em;
+    background-clip: text;
+    margin-bottom: 7%;
+}
+
+#nuevo-apartado p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin: 0 250px; /* Ajusta los márgenes del párrafo según tus preferencias */
+    text-align: justify;
+}
+
+/* Estilos del nuevo apartado Proyectos */
+.proyectosmios {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.proyectosmios h2 {
+    color: yellow;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.tarjetas-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tarjeta1{
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid yellow;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 10px; /* Ajustado el margen */
+    max-width: 250px; /* Ajustado el ancho máximo */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta1:hover {
+    transform: scale(1.05);
+}
+
+.tarjeta1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.tarjeta1 h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.tarjeta1 p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.tarjeta1 button  {
+    background-color: yellow;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.tarjeta1 button:hover{
+    background-color: rgb(255, 183, 0);
+}
 
 
-/* ... (otros estilos) ... */
+/* ... (Tu código existente) */
+/* ... (Tu código existente) */
+
+.tarjeta2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid yellow;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 10px; /* Ajustado el margen */
+    max-width: 250px; /* Ajustado el ancho máximo */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta2:hover {
+    transform: scale(1.05);
+}
+
+.tarjeta2 img {
+    max-width: 200%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.tarjeta2 h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.tarjeta2 p {
+    font-size: 1em;
+    margin-bottom: auto; /* Ajustado para centrar verticalmente */
+    text-align: center; /* Ajustado para centrar horizontalmente */
+}
+
+.tarjeta2 button  {
+    background-color: yellow;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.tarjeta2 button:hover {
+    background-color: rgb(255, 183, 0);
+}
+
+/* ... (Tu código existente) */
+
+.tarjeta3,
+.tarjeta4 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid yellow;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 10px; /* Ajustado el margen */
+    max-width: 250px; /* Ajustado el ancho máximo */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta3:hover,
+.tarjeta4:hover {
+    transform: scale(1.05);
+}
+
+.tarjeta3 img,
+.tarjeta4 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.tarjeta3 img{
+    max-height: 180%;
+}
+.tarjeta3 h3,
+.tarjeta4 h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.tarjeta3 p,
+.tarjeta4 p {
+    font-size: 1em;
+    margin-bottom: auto; /* Ajustado para centrar verticalmente */
+    text-align: center; /* Ajustado para centrar horizontalmente */
+}
+
+.tarjeta3 button,
+.tarjeta4 button {
+    background-color: yellow;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.tarjeta3 button:hover,
+.tarjeta4 button:hover {
+    background-color: rgb(255, 183, 0);
+}
 
 
+#habilidades h2 {
+    color: yellow;
+    margin-bottom: 30px;
+    margin-bottom: 5%;
+    font-size: 2em;
+}
+
+.c1 {
+    border: 1px solid yellow; /* Ajusta el grosor y color del borde según tus preferencias */
+    padding: 20px; /* Ajusta el espaciado interno según tus preferencias */
+    border-radius: 20px;
+}
+
+.habilidad {
+    margin-bottom: 20px;
+    width: 200px;
+    margin-left: 20%;
+}
+
+.nombre-habilidad {
+    display: block;
+    margin-bottom: 10px; /* Ajusta el margen inferior según tus preferencias */
+    margin-top: 10px; /* Nuevo margen superior para mover el texto hacia abajo */
+    color: #fff;
+}
+
+.barra {
+    background-color: #333;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.relleno {
+    height: 100%;
+    background-color: yellow;
+}
+
+.columna1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 15%;
+}
+.columna2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 15%;
+}
 
 
+/* Estilos para la sección de Contacto */
 
+/* Estilos para la sección de Contacto */
+
+#contacto {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+#contacto h2 {
+    color: yellow;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+#formulario-contacto {
+    max-width: 600px; /* Ajusta el valor según tus preferencias */
+    margin: 0 auto;
+    text-align: left;
+}
+
+#formulario-contacto label {
+    display: block;
+    margin-bottom: 8px;
+    color: yellow;
+}
+
+#formulario-contacto input,
+#formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#formulario-contacto button {
+    background-color: yellow;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#formulario-contacto button:hover {
+    background-color: rgb(255, 183, 0);
+}
+
+.form{
+    border: 1px solid yellow; /* Ajusta el grosor y color del borde según tus preferencias */
+    padding: 20px; /* Ajusta el espaciado interno según tus preferencias */
+    border-radius: 20px;
+   
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #171515;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+}
+
+.copyright {
+    flex-grow: 1;
+    font-size: 14px;
+    color: yellow;
+}
+
+.telefono {
+    font-size: 16px;
+    margin-right: 300px;
+}
+
+.telefono a {
+    color: yellow;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.telefono a:hover {
+    color: #ffd700; /* Cambia el color al pasar el ratón */
+}
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        /* Estilos para pantallas pequeñas */
+        /* Por ejemplo, puedes hacer que los elementos del menú se apilen verticalmente */
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .nueva-seccion {
+        /* Estilos para pantallas pequeñas */
+        /* Por ejemplo, puedes ajustar el tamaño del texto o el espaciado */
+        font-size: 16px;
+        padding: 20px;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .tarjeta1, .tarjeta2, .tarjeta3, .tarjeta4 {
+        /* Estilos para pantallas pequeñas */
+        /* Por ejemplo, puedes ajustar el margen o el ancho máximo */
+        margin: 10px;
+        max-width: 100%;
+    }
+}

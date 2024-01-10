@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     <title>Portfolio JC</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -13,20 +16,18 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a class="scroll-link" href="#inicio">Inicio</a></li>
+                <li><a class="scroll-link" href="#sobremi">Sobre mi</a></li>
+                <li><a class="scroll-link" href="#proyectos">Proyectos</a></li>
+                <li><a class="scroll-link" href="#habilidades">Habilidades</a></li>
+                <li><a class="scroll-link" href="#contacto">Contacto</a></li>
             </ul>
         </nav>
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/juan-carlos-gonzalez-09b434293/" target="_blank">
                 <img src="img/linked.png" alt="LinkedIn">
             </a>
-            <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe">
-                <img src="img/correo.png" alt="Correo">
-            </a>
+            
         </div>
     </header>
     <section id="inicio" class="nueva-seccion">
@@ -47,8 +48,134 @@
         </div>
     </section>
 
+    <section id="sobremi" class="nueva-seccion">
+
+        <h2>SOBRE MI</h2>
+        <div class="sobremi">
+            <p>Mi nombre es Juan Carlos, tengo 19 años, vivo en Linares (Jáen). Soy un estudiante comprometido y
+                apasionado
+                por el mundo del desarrollo de software, actualmente estoy cursando el grado de Desarrollo de
+                Aplicaciones
+                Multiplataforma (DAM).
+                Estoy decidido a seguir creciendo como profesional en el campo del desarrollo de aplicaciones
+                , y estoy emocionado por las oportunidades que el futuro pueda presentar. Mi objetivo es aplicar mis
+                habilidades y
+                conocimientos para contribuir significativamente al desarrollo y mejora de soluciones tecnológicas
+                innovadoras.
+                Estoy constantemente buscando oportunidades para aprender y crecer en el siempre cambiante campo de la
+                tecnología. </p>
+        </div>
+    </section>
+
+    <section id="proyectos" class="proyectosmios">
+        <h2>PROYECTOS</h2>
+
+        <div class="contenedor">
+            <div class="tarjeta1">
+                <img src="img/coctel.jpg">
+                <h3>API COCTELES</h3>
+                <p>Esto es una App para Android sobre la Api de Cocteles.</p>
+                <button>Ver más</button>
+            </div>
+            <div class="tarjeta2">
+                <img src="img/login.png">
+                <h3>LOGIN CON FUNCIONALIDAD</h3>
+                <p>Esto es una pantalla de login con algunas que otras funcionalidades realizadas en xcode.</p>
+                <button>Ver más</button>
+            </div>
+            <div class="tarjeta3">
+                <img src="img/rick.jpg">
+                <h3>RICK Y MORTY API</h3>
+                <p>Esto es una actividad en xcode con la API de Rick y Morty, donde se muestra algunos datos y
+                    funcionalidades</p>
+                <button>Ver más</button>
+            </div>
+            <div class="tarjeta4">
+                <img src="img/interro.jpg">
+                <h3>PROXIMAMENTE!</h3>
+                <p>Aqui podrás ver mi trabajo de final de grado!</p>
+                <button>Ver más</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="nueva-seccion">
+        <h2>HABILIDADES</h2>
+        <div class="c1">
+            <div class="columna1">
+                <div class="habilidad">
+                    <span class="nombre-habilidad">HTML 80%</span>
+                    <div class="barra">
+                        <div class="relleno" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span class="nombre-habilidad">JAVA 65%</span>
+                    <div class="barra">
+                        <div class="relleno" style="width: 65%;"></div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span class="nombre-habilidad">JAVASCRIPT 65%</span>
+                    <div class="barra">
+                        <div class="relleno" style="width: 65%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="columna2">
+                <div class="habilidad">
+                    <span class="nombre-habilidad">ANDROID STUDIO 75%</span>
+                    <div class="barra">
+                        <div class="relleno" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span class="nombre-habilidad">ANGULAR 55%</span>
+                    <div class="barra">
+                        <div class="relleno" style="width: 55%;"></div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span class="nombre-habilidad">SWIFT 45%</span>
+                    <div class="barra">
+                        <div class="relleno" style="width: 45%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="contacto" class="nueva-seccion">
+        <h2>CONTACTAME !</h2>
+        
+        <div class="form">
+        <form id="formulario-contacto" action="mailto:juan.gonzalez@escuelaestech.es" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    </section>
     <footer>
-        <!-- Contenido del pie de página -->
+        <div class="copyright">
+            &copy; 2024 Juan Carlos González Montiel / Diseñado por Juan Carlos González Montiel<br>
+            Todos los derechos reservados
+        </div>
+        <div class="telefono">
+            <a href="tel:656682131">+34 656 68 21 81</a>
+        </div>
+        
     </footer>
 </body>
+
+
 </html>
