@@ -499,7 +499,7 @@ h1 {
 }
 
 #formulario-contacto button:hover {
-    background-color: rgb(255, 183, 0);
+    background-color: #ff9800;
 }
 
 .form{
@@ -508,6 +508,25 @@ h1 {
     border-radius: 20px;
    
 }
+
+#descargarEnlace {
+    text-decoration: none;
+  }
+
+  #descargarBtn {
+    background-color: yellow; 
+    color: black;/* Texto blanco para contraste */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #descargarBtn:hover {
+    background-color: #ff9800; 
+  }
 
 /* Estilos para el footer */
 footer {
