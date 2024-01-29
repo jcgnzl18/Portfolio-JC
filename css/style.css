@@ -217,10 +217,12 @@ h1 {
     color: #ffffff;
     padding: 30px;
     text-align: center;
+    
 }
 
 .contenedor{
     display: flex;
+    justify-content: center;
 }
 
 .proyectosmios h2 {
